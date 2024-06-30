@@ -1,9 +1,9 @@
-with open("Data/portfolio.dat", "r") as file:
+with open("Data/portfolio3.dat", "r") as file:
     total = 0
     for line in file:
-        print(line)
+        # print(line)
         words = line.strip().split(" ")
-        print(words)
+        # print(words)
         name, quantity, price = words
         # for quantity, price in words:
         # print(quantity, price)
